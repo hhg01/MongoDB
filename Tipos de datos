@@ -1,0 +1,30 @@
+MongoDB es compatible con muchos tipos de datos. Algunos de ellos son: 
+• Cadena : este es el tipo de datos más comúnmente utilizado para almacenar los datos. Cadena en MongoDB debe ser válido para UTF-8. 
+
+• Entero : este tipo se usa para almacenar un valor numérico. El entero puede ser de 32 bits o 64 poco dependiendo de su servidor. 
+
+• Boolean : este tipo se usa para almacenar un valor booleano (verdadero / falso). 
+
+• Doble : este tipo se usa para almacenar valores de coma flotante. 
+
+• Teclas Min / Max : este tipo se usa para comparar un valor con el valor más bajo y elementos BSON más altos. 
+
+• Matrices : este tipo se usa para almacenar matrices o una lista o valores múltiples en una clave. 
+
+• Marca de tiempo : ctimestamp. Esto puede ser útil para registrar cuando un documento tiene sido modificado o agregado 
+
+• Objeto : este tipo de datos se usa para documentos incrustados. 
+
+• Nulo : este tipo se usa para almacenar un valor nulo. 
+
+• Símbolo : este tipo de datos se usa de manera idéntica a una cadena; sin embargo, es generalmente reservado para idiomas que usan un tipo de símbolo específico. 
+
+• Fecha : este tipo de datos se usa para almacenar la fecha u hora actual en formato de hora UNIX. Puede especificar su propia fecha y hora creando un objeto de Fecha y día de paso, mes, año en eso. 
+
+• Object ID : este tipo de datos se usa para almacenar la identificación del documento. 
+
+• Datos binarios : este tipo de datos se usa para almacenar datos binarios. 
+
+• Código : este tipo de datos se usa para almacenar código JavaScript en el documento. 
+
+• Expresión regular : este tipo de datos se usa para almacenar expresiones regulares.

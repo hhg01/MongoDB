@@ -1,0 +1,3 @@
+sudo mongoimport --db UAM --collection ueas --file Ueas.json
+
+sudo mongoexport --db UAM --collection ueas--o rutade export

@@ -1,0 +1,30 @@
+958  sudo apt-get update
+  959  sudo apt-get install apache2
+  960  sudo apt-get install -y php7.0 libapache2-mod-php7.0
+  961  sudo apt-get install -y php7.2 libapache2-mod-php7.2 php7.2-cli php7.2-common php7.2-mbstring php7.2-gd php7.2-intl php7.2-xml php7.2-mysql php7.2-mcrypt php7.2-zip
+  962  sudo apt-get install -y php7.0 libapache2-mod-php7.0 php7.0-cli php7.0-common php7.0-mbstring php7.0-gd php7.0-intl php7.0-xml php7.0-mysql php7.0-mcrypt php7.0-zip
+  963  sudo apt install php-pear
+  964  sudo pecl install mongodb
+  965  sudo apt-get install php7.0-dev
+  966  sudo pecl install mongodb
+  967  php -m
+  968  service apache2 restart
+  969  sudo apt-key adv --keyserver
+  970  hkp://keyserver.ubuntu.com:80 --recv
+  971  sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv2930ADAE8CAF5059EE73BB4B58712A2291FA4AD5
+  972  sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2930ADAE8CAF5059EE73BB4B58712A2291FA4AD5
+  973  echo "deb [ arch=amd64,arm64 ]
+  974  https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 multiverse" | sudo
+  975  echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.6.list
+  976  sudo apt-get update
+  977  sudo apt-get install -y mongodb-org
+  978  service mongod start
+  979  mongo
+  980  wget https://downloads.mongodb.com/compass/mongodb-compass_1.6.0_amd64.deb;
+  981  sudo dpkg -i mongodb-compass_1.6.0_amd64.deb;
+  982  mongodb-compass
+  983  sudo apt-get install php7.0-pgsql
+  984  service apache2 restart
+  985  service apache2 stop
+  986  service apache2 start
+  987  service apache2 stop
